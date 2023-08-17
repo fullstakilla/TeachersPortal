@@ -118,8 +118,15 @@ import fireImg from '@/assets/img/findpupil-img/fire.svg'
         this.budgetNew2 = value
       },
       checkBoxItem(value){
-        this.checkBoxNew = value
-        this.checkArray.push(value)
+        if (!this.checkArray.includes(value)) {
+          this.checkArray.push(value);
+        } 
+        else {
+          const index = this.checkArray.indexOf(value);
+          if (index !== -1) {
+            this.checkArray.splice(index, 1);
+          }
+        }
       },
       clickCheckForOne() {
         this.checksItems.forEach(item => {
