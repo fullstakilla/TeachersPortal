@@ -1,4 +1,4 @@
-# [Многостраничный сайт](https://mnenie.github.io/100lawyers/) -  Портал Учителя
+# [Многостраничный сайт](fullstakilla.github.io/TeachersPortal/) -  Портал Учителя
 ### Разработчики
 
 [Александр Пешков](https://github.com/mnenie)
